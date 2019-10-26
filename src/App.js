@@ -1,12 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Header_Bar from './components/Header_Bar.js';
 
 function App() {
   return (
 	<div className="App">
-      <h1 className="header">Heeader!</h1>
-      <p>This is the sub-text</p>
+    	<Header_Bar/>
     </div>
   );
 }
